@@ -40,3 +40,28 @@ h3 {
 p,li {
     font-size: 1.2em;
 }
+
+header {
+    background: #d0e1f9;
+}
+
+footer {
+    background: #283655;
+    color: white;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 0.5em 1.5em;
+    border: 1px solid Black;
+    background: rgba(255, 255, 255, 0.73);
+    border-radius: 50px;
+    font-family: "Louis George Café";
+    text-transform: uppercase;
+}
+
+nav > button {
+    font-size: 0.7em;
+    background: #283655;
+    color: white;
+}
