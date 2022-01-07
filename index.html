@@ -6,9 +6,10 @@
     <title>KoH FraiS</title>
 </head>
 <body>
-<header>
-    <img src="Ressources/PHOTOS/LOGO/logo%20Koh%20Frais.png" alt="Logo Koh Frais" title="Logo Koh Frais">
-    <nav>
+<div class="container-fluid">
+<header class="row">
+    <img class="col-1" src="Ressources/PHOTOS/LOGO/logo%20Koh%20Frais.png" alt="Logo Koh Frais" title="Logo Koh Frais">
+    <nav class="col-6 offset-5">
         <button>Accueil</button>
         <button>Nos Produits</button>
         <button>Contact</button>
@@ -17,12 +18,12 @@
 </header>
 
 <main>
-    <section>
+    <section class="row">
         <img src="Ressources/PHOTOS/GLACE/BAC%20GLACE/Bac_glace2.jpg">
     </section>
     <section>
-        <h1>Meilleures ventes</h1>
-        <section>
+        <h1 class="row">Meilleures ventes</h1>
+        <section class="row">
             <h2>Pour les professionnels</h2>
             <article>
                 <img src="Ressources/PHOTOS/PATISSERIES/Vacherin_4.jpg" alt="Vacherin" title="Vacherin">
@@ -38,38 +39,42 @@
             </article>
         </section>
         <section>
-            <h2>Pour les particuliers</h2>
-            <article>
-                <img src="Ressources/PHOTOS/PATISSERIES/Vacherin_4.jpg" alt="Vacherin" title="Vacherin">
-                <h3>Exemple 1</h3>
-            </article>
-            <article>
-                <img src="Ressources/PHOTOS/PATISSERIES/Vacherin_4.jpg" alt="Vacherin" title="Vacherin">
-                <h3>Exemple 1</h3>
-            </article>
-            <article>
-                <img src="Ressources/PHOTOS/PATISSERIES/Vacherin_4.jpg" alt="Vacherin" title="Vacherin">
-                <h3>Exemple 1</h3>
-            </article>
+            <h2 class="row">Pour les particuliers</h2>
+            <section class="row">
+                <article>
+                    <img src="Ressources/PHOTOS/PATISSERIES/Vacherin_4.jpg" alt="Vacherin" title="Vacherin">
+                    <h3>Exemple 1</h3>
+                </article>
+                <article>
+                    <img src="Ressources/PHOTOS/PATISSERIES/Vacherin_4.jpg" alt="Vacherin" title="Vacherin">
+                    <h3>Exemple 1</h3>
+                </article>
+                <article>
+                    <img src="Ressources/PHOTOS/PATISSERIES/Vacherin_4.jpg" alt="Vacherin" title="Vacherin">
+                    <h3>Exemple 1</h3>
+                </article>
+            </section>
         </section>
     </section>
     <section>
-        <h1>Nos gammes</h1>
-        <article>
-            <h2>Professionnels</h2>
-            <img src="Ressources/PHOTOS/COULIS/Coulis_caramel.jpg" alt="Gamme pro" title"gamme pro">
-            <button>Explorer</button>
-        </article>
-        <article>
-            <h2>Prarticuliers</h2>
-            <img src="Ressources/PHOTOS/GLACE/COUPE%20INDIV/coupe_individuelle_Fete.jpg" alt="Gamme pro" title"gamme pro">
-            <button>Explorer</button>
-        </article>
+        <h1 class="row">Nos gammes</h1>
+        <section class="row">
+            <article>
+                <h2>Professionnels</h2>
+                <img src="Ressources/PHOTOS/COULIS/Coulis_caramel.jpg" alt="Gamme pro" title"gamme pro">
+                <button>Explorer</button>
+            </article>
+            <article>
+                <h2>Prarticuliers</h2>
+                <img src="Ressources/PHOTOS/GLACE/COUPE%20INDIV/coupe_individuelle_Fete.jpg" alt="Gamme pro" title"gamme pro">
+                <button>Explorer</button>
+            </article>
+        </section>
     </section>
 </main>
 
-<footer>
-    <section>
+<footer class="row">
+    <section class="col-3">
         <img src="Ressources/PHOTOS/LOGO/logo%20Koh%20Frais.png" alt="logo" title="logo">
         <ul>
             <li>Présentation de l'entreprise</li>
@@ -77,7 +82,7 @@
             <li>numéro de tel<br>adresse mail</li>
         </ul>
     </section>
-    <section>
+    <section class="col-3">
         <p><strong>Gamme pro</strong></p>
         <ul>
             <li>Bacs de glaces</li>
@@ -88,7 +93,7 @@
             <li>Glaces à l'italienne</li>
         </ul>
     </section>
-    <section>
+    <section class="col-3">
         <p><a href="GamPart.html"><strong>Gamme particuliers</strong></a></p>
         <ul>
             <li>Bacs de glaces</li>
@@ -99,13 +104,13 @@
             <li>Glaces à l'italienne</li>
         </ul>
     </section>
-    <section>
+    <section class="col-3">
         <p><strong>A propos</strong></p>
         <ul>
             <li>Points de ventes</li>
         </ul>
     </section>
 </footer>
-
+</div>
 </body>
 </html>
