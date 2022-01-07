@@ -56,6 +56,17 @@ p,li {
 
 header {
     background: #d0e1f9;
+    padding: 1em;
+    margin: 1em;
+    box-shadow: #283655 0 2.5px 8px;
+}
+
+header > nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: end;
+    align-items: center;
 }
 
 footer {
@@ -74,9 +85,11 @@ button {
 }
 
 nav > button {
-    font-size: 0.7em;
+    font-size: 1.2em;
     background: #283655;
     color: white;
+    border: none;
+    margin: 0 1em;
 }
 
 strong {
