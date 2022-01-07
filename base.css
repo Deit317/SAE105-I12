@@ -72,6 +72,32 @@ header > nav {
 footer {
     background: #283655;
     color: white;
+    padding: 1em;
+}
+
+footer > section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+}
+
+footer > section > img {
+    height: 6.5em;
+    margin-bottom: 1em;
+}
+
+footer > section > ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: start;
+
+}
+
+footer > section > ul > li{
 }
 
 button {
