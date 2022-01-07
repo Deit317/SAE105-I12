@@ -6,7 +6,7 @@ Il n'est pas nécéssaire de recopier son contenu sur les autres fichier CSS
  */
 
 @font-face {
-    font-family: 'astral_sistersregular';
+    font-family: 'Astral Sisters';
     src: url('Ressources/POLICES/Astral_Sister/astral_sisters-webfont.woff2') format('woff2'),
     url('Ressources/POLICES/Astral_Sister/astral_sisters-webfont.woff') format('woff');
     font-weight: normal;
@@ -14,12 +14,20 @@ Il n'est pas nécéssaire de recopier son contenu sur les autres fichier CSS
 
 }
 
-
 @font-face {
-    font-family: 'louis_george_caferegular';
+    font-family: 'Louis George Café';
     src: url('Ressources/POLICES/Louis_George_Cafe/louis_george_cafe-webfont.woff2') format('woff2'),
     url('Ressources/POLICES/Louis_George_Cafe/louis_george_cafe-webfont.woff') format('woff');
     font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Louis George Café';
+    src: url('Ressources/POLICES/Louis_George_Cafe/louis_george_cafe_bold-webfont.woff2') format('woff2'),
+    url('Ressources/POLICES/Louis_George_Cafe/louis_george_cafe_bold-webfont.woff') format('woff');
+    font-weight: bold;
     font-style: normal;
 
 }
@@ -69,4 +77,8 @@ nav > button {
     font-size: 0.7em;
     background: #283655;
     color: white;
+}
+
+strong {
+    font-size: 1.1em;
 }
