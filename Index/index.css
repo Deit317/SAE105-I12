@@ -30,6 +30,35 @@ section > div > h1:after {
     border-radius: 4px;
 }
 
+.carte {
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    height: 20em;
+    margin: 0 1em;
+}
+
+.carte > h2 {
+    position: absolute;
+    left: 0.8em;
+    top: 0.5em;
+    color: white;
+    text-shadow:  2px 2px 0 dimgrey, -2px -2px 0 dimgrey, 2px -2px 0 dimgrey, -2px 2px 0 dimgrey;
+    /*background-color: dimgrey;*/
+    /*border-radius: 20px;*/
+    /*padding: 0.2em 0.5em;*/
+}
+.carte > button {
+    position: absolute;
+    right: 0.6em;
+    bottom: 0.6em;
+}
+
+.carte >img {
+    position: absolute;
+    left: 0;
+}
+
 * {
     border: 1px dotted red;
 }
