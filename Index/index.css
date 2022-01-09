@@ -56,6 +56,9 @@ section > div > h1:after {
 .carte >img {
     position: absolute;
     left: 0;
+    /*max-height: 20em;*/
+    max-width: 100%;
+    transform: translateY(-30%);
 }
 
 * {
