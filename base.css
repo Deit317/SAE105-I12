@@ -38,7 +38,7 @@ body {
 }
 
 h1 {
-    font-family: "Astral Sisters";
+    font-family: "Astral Sisters", Arial, sans-serif;
     font-size: 4.5em;
 }
 
@@ -71,24 +71,33 @@ header > nav {
 
 footer {
     background: #283655;
+    font-size: 0.8em;
     color: white;
     padding: 1em;
 }
 
-footer > section {
+footer > div > section {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: start;
-    align-items: center;
+    justify-content: end;
+    align-items: start;
 }
 
-footer > section > img {
+footer > div > section > * {
+    margin: 1em;
+}
+
+footer > div + div > section {
+    justify-content: start;
+}
+
+footer > div > section > img {
     height: 6.5em;
     margin-bottom: 1em;
 }
 
-footer > section > ul {
+footer > div > section > ul {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -97,16 +106,13 @@ footer > section > ul {
 
 }
 
-footer > section > ul > li{
-}
-
 button {
     font-size: 1.2em;
     padding: 0.5em 1.5em 0.4em 1.5em;
     border: 1px solid Black;
     background: rgba(255, 255, 255, 0.73);
     border-radius: 50px;
-    font-family: "Louis George Café";
+    font-family: "Louis George Café", Arial, sans-serif;
     text-transform: uppercase;
 }
 
