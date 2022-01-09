@@ -35,7 +35,8 @@ section > div > h1:after {
     overflow: hidden;
     position: relative;
     height: 20em;
-    margin: 0 1em;
+    margin: 0 1.5em;
+    margin-bottom: 3em;
 }
 
 .carte > h2 {
@@ -43,10 +44,6 @@ section > div > h1:after {
     left: 0.8em;
     top: 0.5em;
     color: white;
-    /*text-shadow:  2px 2px 0 dimgrey, -2px -2px 0 dimgrey, 2px -2px 0 dimgrey, -2px 2px 0 dimgrey;*/
-    /*background-color: dimgrey;*/
-    /*border-radius: 20px;*/
-    /*padding: 0.2em 0.5em;*/
     -webkit-text-stroke: 3.5px;
     -webkit-text-stroke-color:#444444;
 }
