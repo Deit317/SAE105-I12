@@ -132,3 +132,18 @@ nav > button {
 strong {
     font-size: 1.1em;
 }
+
+@media screen and (max-width: 576px) {
+
+    footer > section {
+        display: flex;
+        flex-direction: column;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer > section > img {
+        height: 5em;
+
+    }
+}

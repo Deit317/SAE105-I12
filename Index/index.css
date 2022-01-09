@@ -37,7 +37,12 @@ section > h2 {
 
 section > article {
     display: flex;
+    flex-direction: row;
     align-items: center;
+}
+
+section > article > h3 {
+    margin: -1em;
 }
 
 section > article > img {
@@ -82,4 +87,39 @@ section > article > img {
 
 * {
     /*border: 1px dotted red;*/
+}
+
+@media screen and (max-width: 576px) {
+    section > div > h1 {
+        font-size: 3em;
+    }
+
+    section > div > h1:before {
+        left: -0.5em;
+        width: 1em;
+    }
+
+    section > div > h1:after {
+        right: -0.5em;
+        width: 1em;
+    }
+
+    section > h2 {
+        font-size: 2em;
+    }
+
+    section > article > img {
+        margin: 0 2em;
+        margin-bottom: 2em
+    }
+
+    .carte {
+        height: 12em;
+    }
+
+    .carte > h2 {
+        font-size: 2em;
+        -webkit-text-stroke: 2.8px;
+        -webkit-text-stroke-color:#444444;
+    }
 }
