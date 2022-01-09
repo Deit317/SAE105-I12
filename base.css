@@ -40,10 +40,12 @@ body {
 h1 {
     font-family: "Astral Sisters", Arial, sans-serif;
     font-size: 4.5em;
+    margin-bottom: 0.6em;
 }
 
 h2 {
     font-size: 3em;
+    font-weight: bold;
 }
 /*Les h3 sont des textes de niveau 1 par souci de taille*/
 h3 {
@@ -74,6 +76,9 @@ footer {
     font-size: 0.8em;
     color: white;
     padding: 1em;
+    margin-bottom: 1.3em;
+    box-shadow: #283655 0 2.5px 8px;
+
 }
 
 footer > div > section {
