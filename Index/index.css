@@ -30,6 +30,25 @@ section > div > h1:after {
     border-radius: 4px;
 }
 
+section > h2 {
+    margin: 0.4em;
+    margin-bottom: 0.7em;
+}
+
+section > article {
+    display: flex;
+    align-items: center;
+}
+
+section > article > img {
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    height: 7em;
+    margin: 0 3em;
+    margin-bottom: 2em;
+}
+
 .carte {
     border-radius: 20px;
     overflow: hidden;
