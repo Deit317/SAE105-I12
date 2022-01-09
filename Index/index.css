@@ -2,18 +2,18 @@
 Il n'est pas nécéssaire de recopier son contenu sur les autres fichier CSS
  */
 
-section > div {
+section > div > h1 {
     position: relative;
 }
 
 section > div > h1:before {
     content: "";
     position: absolute;
-    left: 25%;
+    left: -2em;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
     height: 4px;
-    width: 20%;
+    width: 3em;
     background-color: black;
     border-radius: 4px;
 }
@@ -21,11 +21,11 @@ section > div > h1:before {
 section > div > h1:after {
     content: "";
     position: absolute;
-    left: 75%;
+    right: -2em;
     top: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    transform: translateX(50%) translateY(-50%);
     height: 4px;
-    width: 20%;
+    width: 3em;
     background-color: black;
     border-radius: 4px;
 }
