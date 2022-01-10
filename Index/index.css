@@ -39,6 +39,7 @@ section > article {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 3em;
 }
 
 section > article > h3 {
@@ -53,6 +54,12 @@ section > article > img {
     margin: 0 3em;
     margin-bottom: 2em;
 }
+
+/*.meilleures > section {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*}*/
 
 .carte {
     border-radius: 20px;
