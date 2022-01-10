@@ -148,6 +148,7 @@ strong {
         background-color: #283655;
         border-radius: 20px;
         text-decoration: none;
+        border: solid #283655;
     }
 
     footer > section {
