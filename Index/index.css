@@ -44,6 +44,7 @@ section > article {
 
 section > article > h3 {
     margin: -1em;
+    margin-bottom: 0.45em;
 }
 
 section > article > img {
@@ -92,6 +93,15 @@ section > article > img {
     transform: translateY(-30%);
 }
 
+.carousel {
+    margin-bottom: 3em;
+    overflow: hidden;
+}
+
+.carousel > div > button {
+    border-radius: 0px;
+}
+
 * {
     /*border: 1px dotted red;*/
 }
@@ -128,5 +138,9 @@ section > article > img {
         font-size: 2em;
         -webkit-text-stroke: 2.8px;
         -webkit-text-stroke-color:#444444;
+    }
+
+    section > article {
+        margin-left: 1em;
     }
 }

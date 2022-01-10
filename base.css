@@ -135,6 +135,21 @@ strong {
 
 @media screen and (max-width: 576px) {
 
+    .hmobile > section > nav {
+        box-shadow: none;
+    }
+
+    .hmobile > section > nav > div > button > img {
+        height: 3em;
+    }
+
+    .hmbutton {
+        color: white;
+        background-color: #283655;
+        border-radius: 20px;
+        text-decoration: none;
+    }
+
     footer > section {
         display: flex;
         flex-direction: column;
@@ -143,6 +158,7 @@ strong {
 
     footer > section > img {
         height: 5em;
+        margin-bottom: 1em;
 
     }
 }
