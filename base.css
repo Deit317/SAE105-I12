@@ -151,15 +151,24 @@ strong {
         border: solid #283655;
     }
 
+    .hmbutton:hover {
+        color: #283655;
+    }
+
     footer > section {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
     }
 
     footer > section > img {
         height: 5em;
         margin-bottom: 1em;
 
+    }
+    footer > .presentation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

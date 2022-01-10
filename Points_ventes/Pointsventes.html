@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="../BOOTSTRAP/js/bootstrap.js"></script>
+    <script type="text/javascript" src="../MDB/js/mdb.min.js"></script>
+    <link rel="stylesheet" href="../MDB/css/mdb.min.css" />
     <link rel="stylesheet" href="../BOOTSTRAP/css/bootstrap.css">
     <link rel="stylesheet" href="../base.css">
     <link rel="stylesheet" href="PointsVentes.css">
@@ -9,40 +12,103 @@
 </head>
 <body>
 <div class="container-fluid">
-<header class="row">
-    <img class="col-1" src="../Ressources/PHOTOS/LOGO/logo%20Koh%20Frais.png" alt="Logo Koh Frais" title="Logo Koh Frais">
-    <nav class="col-11">
-        <button>Accueil</button>
-        <button>Nos Produits</button>
-        <button>Contact</button>
-        <button>A Propos</button>
-    </nav>
-</header>
 
-<footer>
-    <div class="row">
-        <section class="col-3">
-            <img src="../Ressources/PHOTOS/LOGO/logo%20Koh%20Frais.png" alt="logo" title="logo">
+    <header class="row d-none d-lg-flex">
+        <img class="col-lg-1" src="../Ressources/PHOTOS/LOGO/logo%20Koh%20Frais.png" alt="Logo Koh Frais" title="Logo Koh Frais">
+        <nav class="col-lg-11">
+            <button>Accueil</button>
+            <button>Nos Produits</button>
+            <button>Contact</button>
+            <button>A Propos</button>
+        </nav>
+    </header>
+
+    <header class="hmobile row d-lg-none d-block">
+        <section class="mb-3">
+            <nav class="navbar">
+                <div>
+                    <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                            data-mdb-target="#navbarToggleExternalContent4"
+                            aria-controls="navbarToggleExternalContent4" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                        <img src="../Ressources/PHOTOS/LOGO/icone%20glace.png" alt="Logo Koh Frais Glace" title="Logo Koh Frais Glace">
+                    </button>
+                </div>
+            </nav>
+            <div class="collapse" id="navbarToggleExternalContent4">
+                <div class="p-4">
+                    <button class="hmbutton btn btn-link btn-block m-1">Accueil</button>
+                    <button class="hmbutton btn btn-link btn-block m-1">Nos Produits</button>
+                    <button class="hmbutton btn btn-link btn-block m-1">Contact</button>
+                    <button class="hmbutton btn btn-link btn-block m-1">A propos</button>
+                </div>
+            </div>
         </section>
-        <section class="col-3">
-            <p><strong>Gamme pro</strong></p>
-        </section>
-        <section class="col-3">
-            <p><a href="GamPart.html"><strong>Gamme particuliers</strong></a></p>
-        </section>
-        <section class="col-3">
-            <p><strong>A propos</strong></p>
-        </section>
-    </div>
-    <div class="row">
-        <section class="col-3">
+    </header>
+
+    <footer class="d-none d-lg-block">
+        <div class="row">
+            <section class="col-lg-3">
+                <img src="../Ressources/PHOTOS/LOGO/logo_Koh_Frais_fond3.png" alt="logo" title="logo">
+            </section>
+            <section class="col-lg-3">
+                <p><strong>Gamme pro</strong></p>
+            </section>
+            <section class="col-lg-3">
+                <p><a href="../Page_Gamme/GamPart.html"><strong>Gamme particuliers</strong></a></p>
+            </section>
+            <section class="col-lg-3">
+                <p><strong>A propos</strong></p>
+            </section>
+        </div>
+        <div class="row">
+            <section class="col-lg-3">
+                <ul>
+                    <li>Présentation de l'entreprise</li>
+                    <li>n° de rue<br>code postal<br>ville</li>
+                    <li>numéro de tel<br>adresse mail</li>
+                </ul>
+            </section>
+            <section class="col-lg-3">
+                <ul>
+                    <li>Bacs de glaces</li>
+                    <li>Bacs bio</li>
+                    <li>Fruits congelés</li>
+                    <li>Coulis bio</li>
+                    <li>Coupes individuelles</li>
+                    <li>Glaces à l'italienne</li>
+                </ul>
+            </section>
+            <section class="col-lg-3">
+                <ul>
+                    <li>Bacs de glaces</li>
+                    <li>Bacs bio</li>
+                    <li>Fruits congelés</li>
+                    <li>Coulis bio</li>
+                    <li>Coupes individuelles</li>
+                    <li>Glaces à l'italienne</li>
+                </ul>
+            </section>
+            <section class="col-lg-3">
+                <ul>
+                    <li>Points de ventes</li>
+                </ul>
+            </section>
+        </div>
+    </footer>
+
+    <footer class="d-block d-lg-none">
+        <section class="presentation">
+            <img src="../Ressources/PHOTOS/LOGO/icone_glace_fond.png" alt="Logo glace" title="Logo glace">
             <ul>
                 <li>Présentation de l'entreprise</li>
                 <li>n° de rue<br>code postal<br>ville</li>
                 <li>numéro de tel<br>adresse mail</li>
             </ul>
         </section>
-        <section class="col-3">
+        <section>
+            <p><strong>Gamme pro</strong></p>
             <ul>
                 <li>Bacs de glaces</li>
                 <li>Bacs bio</li>
@@ -52,7 +118,8 @@
                 <li>Glaces à l'italienne</li>
             </ul>
         </section>
-        <section class="col-3">
+        <section>
+            <p><a href="../Page_Gamme/GamPart.html"><strong>Gamme particuliers</strong></a></p>
             <ul>
                 <li>Bacs de glaces</li>
                 <li>Bacs bio</li>
@@ -62,12 +129,14 @@
                 <li>Glaces à l'italienne</li>
             </ul>
         </section>
-        <section class="col-3">
+        <section>
+            <p><strong>A propos</strong></p>
             <ul>
                 <li>Points de ventes</li>
             </ul>
         </section>
-    </div>
-</footer>
+    </footer>
+
+</div>
 </body>
 </html>
