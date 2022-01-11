@@ -1,3 +1,23 @@
+main{
+    text-align: center;
+}
+
 main > section > div{
     background-color: #1e1f26;
+    color: #d0e1f9;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
+
+main img{
+    border-radius: 20px;
+}
+
+main > section > article > img{
+    height: 469px;
+}
+
