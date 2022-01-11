@@ -102,6 +102,11 @@ section > article > img {
     border-radius: 0;
 }
 
+.carousel-control-next:hover {
+    background: none;
+    border: none;
+}
+
 * {
     /*border: 1px dotted red;*/
 }
@@ -147,6 +152,11 @@ section > article > img {
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
+
+    /*header > section > nav > div > button:hover {*/
+    /*    background: none;*/
+    /*}*/
+
     section > div > h1 {
         font-size: 3em;
     }
