@@ -2,7 +2,15 @@ main{
     text-align: center;
 }
 
-main > section > div{
+main section{
+    margin: 80px 0;
+}
+
+h2{
+    margin-bottom: 80px;
+}
+
+.fondSection{
     background-color: #1e1f26;
     color: #d0e1f9;
     text-align: center;
@@ -19,5 +27,9 @@ main img{
 
 main > section > article > img{
     height: 469px;
+}
+
+figure img{
+    height: 300px;
 }
 
