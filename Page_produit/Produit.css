@@ -29,3 +29,8 @@ figure img{
     height: 300px;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
