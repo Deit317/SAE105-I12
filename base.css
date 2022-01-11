@@ -125,12 +125,34 @@ nav > button {
     font-size: 1.2em;
     background: #283655;
     color: white;
-    border: none;
     margin: 0 1em;
+    border: solid 3px #283655;
+    transition-duration: 100ms;
+}
+
+nav > button:hover {
+    color: #283655;
+    background-color: white;
+    transform: scale(1.05);
+    transition-duration: 100ms;
 }
 
 strong {
     font-size: 1.1em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition-duration: 100ms;
+}
+
+a:hover {
+    background-color: #d0e1f9;
+    color: #283655;
+    padding: 4px;
+    border-radius: 4px;
+    transition-duration: 100ms;
 }
 
 @media screen and (max-width: 576px) {
@@ -141,6 +163,10 @@ strong {
 
     .hmobile > section > nav > div > button > img {
         height: 3em;
+    }
+
+    .hmobile > section > nav > div > button:hover {
+        border: solid black;
     }
 
     .hmbutton {
