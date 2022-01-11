@@ -16,6 +16,8 @@ div > h1 {
 
 section > div > h2 {
     position: relative;
+    text-align: center;
+    margin-bottom: 1em;
 }
 
 section > div > h2:before {
@@ -28,6 +30,7 @@ section > div > h2:before {
     width: 3em;
     background-color: black;
     border-radius: 4px;
+    display: block;
 }
 
 section > div > h2:after {
@@ -40,23 +43,39 @@ section > div > h2:after {
     width: 3em;
     background-color: black;
     border-radius: 4px;
+    display: block;
+}
+
+section > section {
+    margin-bottom: -1em;
 }
 
 section > section > article {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 4em;
+}
+
+section > section > article > button {
+    /*align-self: center;*/
 }
 
 section > section > article > figure > figcaption {
     text-align: center;
+    margin-top: -1.2em;
+    font-size: 1.3em;
 }
 
 section > section > article > figure > img {
     border-radius: 20px;
     overflow: hidden;
     position: relative;
-    height: 7em;
+    height: 10em;
     margin: 0 3em;
     margin-bottom: 2em;
+}
+
+* {
+    /*border: 1px dotted red;*/
 }
