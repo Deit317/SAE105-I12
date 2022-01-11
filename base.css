@@ -125,7 +125,7 @@ button {
 button:hover {
     background-color: #283655;
     color: #d0e1f9;
-    border: #283655;
+    border: solid #283655;
     transition-duration: 100ms;
 }
 
