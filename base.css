@@ -114,11 +114,19 @@ footer > div > section > ul {
 button {
     font-size: 1.2em;
     padding: 0.5em 1.5em 0.4em 1.5em;
-    border: 1px solid Black;
+    border: 2px solid Black;
     background: rgba(255, 255, 255, 0.73);
     border-radius: 50px;
     font-family: "Louis George Café", Arial, sans-serif;
     text-transform: uppercase;
+    transition-duration: 100ms;
+}
+
+button:hover {
+    background-color: #283655;
+    color: #d0e1f9;
+    border: #283655;
+    transition-duration: 100ms;
 }
 
 nav > button {
