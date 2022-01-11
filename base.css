@@ -5,7 +5,7 @@ Il contiendra les styles communs à toutes les pages, à savoir les polices, les
 Il n'est pas nécéssaire de recopier son contenu sur les autres fichier CSS
  */
 
-@font-face {
+ @font-face {
     font-family: 'Astral Sisters';
     src: url('Ressources/POLICES/Astral_Sister/astral_sisters-webfont.woff2') format('woff2'),
     url('Ressources/POLICES/Astral_Sister/astral_sisters-webfont.woff') format('woff');
@@ -125,25 +125,120 @@ nav > button {
     font-size: 1.2em;
     background: #283655;
     color: white;
-    border: none;
     margin: 0 1em;
+    border: solid 3px #283655;
+    transition-duration: 100ms;
+}
+
+nav > button:hover {
+    color: #283655;
+    background-color: white;
+    transform: scale(1.05);
+    transition-duration: 100ms;
 }
 
 strong {
     font-size: 1.1em;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+    transition-duration: 100ms;
+}
+
+a:hover {
+    background-color: #d0e1f9;
+    color: #283655;
+    padding: 4px;
+    border-radius: 4px;
+    transition-duration: 100ms;
+}
+
 @media screen and (max-width: 576px) {
+
+    .hmobile > section > nav {
+        box-shadow: none;
+    }
+
+    .hmobile > section > nav > div > button > img {
+        height: 3em;
+    }
+
+    .hmobile > section > nav > div > button:hover {
+        border: solid black;
+    }
+
+    .hmbutton {
+        color: white;
+        background-color: #283655;
+        border-radius: 20px;
+        text-decoration: none;
+        border: solid #283655;
+    }
+
+    .hmbutton:hover {
+        color: #283655;
+    }
 
     footer > section {
         display: flex;
         flex-direction: column;
-        flex-direction: column;
-        align-items: center;
+        align-items: start;
     }
 
     footer > section > img {
         height: 5em;
+        margin-bottom: 1em;
 
+    }
+    footer > .presentation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 576px) {
+
+    .hmobile > section > nav {
+        box-shadow: none;
+    }
+
+    .hmobile > section > nav > div > button > img {
+        height: 3em;
+    }
+
+    .hmobile > section > nav > div > button:hover {
+        border: solid black;
+    }
+
+    .hmbutton {
+        color: white;
+        background-color: #283655;
+        border-radius: 20px;
+        text-decoration: none;
+        border: solid #283655;
+    }
+
+    .hmbutton:hover {
+        color: #283655;
+    }
+
+    footer > section {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    footer > section > img {
+        height: 5em;
+        margin-bottom: 1em;
+
+    }
+    footer > .presentation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

@@ -34,3 +34,31 @@ ul {
     padding: 0;
     margin: 0;
 }
+
+section > div > h2 {
+    position: relative;
+}
+
+section > div > h2:before {
+    content: "";
+    position: absolute;
+    left: -2em;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 4px;
+    width: 3em;
+    background-color: black;
+    border-radius: 4px;
+}
+
+section > div > h2:after {
+    content: "";
+    position: absolute;
+    right: -2em;
+    top: 50%;
+    transform: translateX(50%) translateY(-50%);
+    height: 4px;
+    width: 3em;
+    background-color: black;
+    border-radius: 4px;
+}
