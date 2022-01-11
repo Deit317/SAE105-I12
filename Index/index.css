@@ -99,7 +99,7 @@ section > article > img {
 }
 
 .carousel > div > button {
-    border-radius: 0px;
+    border-radius: 0;
 }
 
 * {
@@ -107,6 +107,45 @@ section > article > img {
 }
 
 @media screen and (max-width: 576px) {
+    section > div > h1 {
+        font-size: 3em;
+    }
+
+    section > div > h1:before {
+        left: -0.5em;
+        width: 1em;
+    }
+
+    section > div > h1:after {
+        right: -0.5em;
+        width: 1em;
+    }
+
+    section > h2 {
+        font-size: 2em;
+    }
+
+    section > article > img {
+        margin: 0 2em;
+        margin-bottom: 2em
+    }
+
+    .carte {
+        height: 12em;
+    }
+
+    .carte > h2 {
+        font-size: 2em;
+        -webkit-text-stroke: 2.8px;
+        -webkit-text-stroke-color:#444444;
+    }
+
+    section > article {
+        margin-left: 1em;
+    }
+}
+
+@media screen and (min-width: 576px) {
     section > div > h1 {
         font-size: 3em;
     }
