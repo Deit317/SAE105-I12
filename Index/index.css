@@ -112,6 +112,10 @@ section > article > img {
 }
 
 @media screen and (max-width: 576px) {
+    header > section > nav > div > button:hover {
+        background: none;
+    }
+
     section > div > h1 {
         font-size: 3em;
     }
@@ -149,13 +153,23 @@ section > article > img {
     section > article {
         margin-left: 1em;
     }
+
+    .carousel-control-prev:hover {
+        background: none;
+        border: none;
+    }
+
+    .carousel-control-next:hover {
+        background: none;
+        border: none;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
 
-    /*header > section > nav > div > button:hover {*/
-    /*    background: none;*/
-    /*}*/
+    header > section > nav > div > button:hover {
+        background: none;
+    }
 
     section > div > h1 {
         font-size: 3em;
@@ -194,4 +208,15 @@ section > article > img {
     section > article {
         margin-left: 3em;
     }
+
+    .carousel-control-prev:hover {
+        background: none;
+        border: none;
+    }
+
+    .carousel-control-next:hover {
+        background: none;
+        border: none;
+    }
+
 }
