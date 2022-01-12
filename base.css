@@ -145,6 +145,22 @@ nav > button:hover {
     transition-duration: 100ms;
 }
 
+.dropbut {
+    font-size: 1.2em;
+    background: #283655;
+    color: white;
+    margin: 0 1em;
+    border: solid 3px #283655;
+    transition-duration: 100ms;
+}
+
+.dropbut:hover {
+    color: #283655;
+    background-color: white;
+    transform: scale(1.05);
+    transition-duration: 100ms;
+}
+
 strong {
     font-size: 1.1em;
 }
@@ -207,7 +223,8 @@ a:hover {
     }
 }
 
-@media screen and (min-width: 576px) and (max-width: 768px) {
+/*@media screen and (min-width: 576px) and (max-width: 768px) {*/
+@media screen and (min-width: 576px) and (max-width: 768px){
 
     .hmobile > section > nav {
         box-shadow: none;

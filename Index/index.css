@@ -176,13 +176,13 @@ section > article > img {
     }
 
     section > div > h1:before {
-        left: -1.3em;
-        width: 2em;
+        left: -1em;
+        width: 1.5em;
     }
 
     section > div > h1:after {
-        right: -1.3em;
-        width: 2em;
+        right: -1em;
+        width: 1.5em;
     }
 
     section > h2 {
@@ -196,7 +196,7 @@ section > article > img {
     }
 
     .carte {
-        height: 18em;
+        height: 13.5em;
     }
 
     .carte > h2 {

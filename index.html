@@ -14,9 +14,27 @@
 <div class="container-fluid">
     <header class="row d-none d-sm-none d-lg-flex">
         <img class="col-lg-1" src="Ressources/PHOTOS/LOGO/logo%20Koh%20Frais.png" alt="Logo Koh Frais" title="Logo Koh Frais">
+<!--        <nav class="col-lg-11">-->
+<!--            <button>Accueil</button>-->
+<!--            <button class="dropdown-toggle">Nos Produits</button>-->
+<!--            <button>Contact</button>-->
+<!--            <button>A Propos</button>-->
+<!--        </nav>-->
+
         <nav class="col-lg-11">
             <button>Accueil</button>
-            <button class="dropdown-toggle">Nos Produits</button>
+            <div class="dropdown">
+            <button class="dropbut dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nos Produits</button>
+                <div class="dropdown-menu" aria-labelledby="dropdown-menu">
+                    <h6 class="dropdown-header">Dropdown Header</h6>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Dropdown One</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Dropdown Two</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Dropdown Three</a>
+                </div>
+            </div>
             <button>Contact</button>
             <button>A Propos</button>
         </nav>
@@ -39,7 +57,7 @@
             <div class="collapse" id="navbarToggleExternalContent4">
                 <div class="p-4">
                     <button class="hmbutton btn btn-link btn-block m-1">Accueil</button>
-                    <button class="hmbutton btn btn-link btn-block m-1">Nos Produits</button>
+                    <button class="hmbutton btn btn-link btn-block m-1 dropdown-toggle">Nos Produits</button>
                     <button class="hmbutton btn btn-link btn-block m-1">Contact</button>
                     <button class="hmbutton btn btn-link btn-block m-1">A propos</button>
                 </div>
