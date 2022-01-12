@@ -6,6 +6,7 @@ main section, h2, header{
     margin-bottom: 80px;
 }
 
+
 .fondSection{
     border-bottom: 40px;
     background-color: #1e1f26;
@@ -29,6 +30,9 @@ main > section > article > img{
 figure img{
     height: 300px;
 }
+.no_padding{
+    padding: 0;
+}
 
 ul {
     list-style-type: none;
@@ -38,6 +42,11 @@ ul {
 
 section > div > h2 {
     position: relative;
+}
+
+main > section > div{
+    height: max-content;
+    margin-bottom: 40px;
 }
 
 section > div > h2:before {
@@ -64,3 +73,18 @@ section > div > h2:after {
     border-radius: 4px;
 }
 
+@media screen and (max-width: 576px) {
+
+    section > div > h2:before {
+        left: -0.5em;
+        width: 1em;
+    }
+
+    section > div > h2:after {
+        right: -0.5em;
+        width: 1em;
+    }
+    section > div > h2 {
+        font-size: 2em;
+    }
+}

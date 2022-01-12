@@ -56,8 +56,8 @@
     </header>
 
     <main>
-        <section class="row">
-            <div class="fondSection col-lg-4 offset-lg-1 d-lg-flex col-12 d-inline ">
+        <section class="row no-gutter">
+            <div class="fondSection col-lg-4 offset-lg-1 col-10 offset-1 d-inline ">
                 <article>
                     <h2>Sorbet au Cassis</h2>
                     <div>
@@ -69,8 +69,8 @@
                     </div>
                 </article>
             </div>
-            <div class="col-lg-4 offset-lg-2 col-12">
-                <article>
+            <div class="no_padding col-lg-4 offset-lg-2 col-10 offset-1">
+                <article class="col-12">
                     <img src="../Ressources/PHOTOS/GLACE/BAC%20GLACE/glace_cassis.jpeg" class="col-lg-12 col-12">
                 </article>
             </div>
@@ -102,6 +102,51 @@
                     <button>Voir le produit</button>
                 </article>
             </div>
+        </section>
+        <section class="row">
+            <div class="row justify-content-center d-lg-none">
+                <h2 class="col-auto">Nos suggestions</h2>
+            </div>
+            <div id="carouselExampleCaptions" class="carousel slide d-lg-none" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <article>
+                            <figure>
+                                <img src="../Ressources/PHOTOS/COULIS/Coulis_Kiwi.jpg">
+                                <figcaption>Coulis au kiwi</figcaption>
+                            </figure>
+                            <button>Voir le produit</button>
+                        </article>
+                    </div>
+                    <div class="carousel-item">
+                        <article>
+                            <figure>
+                                <img src="../Ressources/PHOTOS/GLACE/COUPE%20INDIV/Coupe_individuelle_1.jpg">
+                                <figcaption>Coupes individuelles</figcaption>
+                            </figure>
+                            <button>Voir le produit</button>
+                        </article>
+                    </div>
+                    <div class="carousel-item">
+                        <article>
+                            <figure>
+                                <img src="../Ressources/PHOTOS/GLACE/ITALIENNE/Glace_Italienne1.jpg">
+                                <figcaption>Glaces à l'italienne</figcaption>
+                            </figure>
+                            <button>Voir le produit</button>
+                        </article>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon btn-dark" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon btn-dark" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
         </section>
     </main>
 
