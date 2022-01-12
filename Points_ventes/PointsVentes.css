@@ -15,3 +15,18 @@ section,
 div > p {
   padding: 1em;
 }
+
+#textsm {
+  display: none;
+}
+
+/*------------- Media Query -------------*/
+
+@media screen and (max-width: 780px) {
+  #textlg {
+    display: none;
+  }
+  #textsm {
+    display: inherit;
+  }
+}
