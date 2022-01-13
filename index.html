@@ -2,46 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script src="BOOTSTRAP/js/bootstrap.js"></script>
+    <meta name="viewport" content="width=device-width, initial scale=1">
+    <!--    <script src="BOOTSTRAP/js/bootstrap.js"></script>-->
+    <script src="BOOTSTRAP/js/bootstrap.bundle.js"></script>
     <script type="text/javascript" src="MDB/js/mdb.min.js"></script>
     <link rel="stylesheet" href="MDB/css/mdb.min.css" />
     <link rel="stylesheet" href="BOOTSTRAP/css/bootstrap.css">
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="Index/index.css">
+    <link rel="stylesheet" href="testnav.css">
     <title>KoH FraiS</title>
 </head>
 <body>
 <div class="container-fluid">
     <header class="row d-none d-sm-none d-lg-flex">
         <img class="col-lg-1" src="Ressources/PHOTOS/LOGO/logo%20Koh%20Frais.png" alt="Logo Koh Frais" title="Logo Koh Frais">
-<!--        <nav class="col-lg-11">-->
-<!--            <button>Accueil</button>-->
-<!--            <button class="dropdown-toggle">Nos Produits</button>-->
-<!--            <button>Contact</button>-->
-<!--            <button>A Propos</button>-->
-<!--        </nav>-->
-
         <nav class="col-lg-11">
             <button>Accueil</button>
             <div class="dropdown">
-            <button class="dropbut dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nos Produits</button>
-                <div class="dropdown-menu" aria-labelledby="dropdown-menu">
-                    <h6 class="dropdown-header">Dropdown Header</h6>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Dropdown One</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Dropdown Two</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Dropdown Three</a>
-                </div>
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Nos produits
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><p class="titre-dropdown">Gamme Particuliers</p></li>
+                    <li><a class="dropdown-item" href="#">Bacs de Glace</a></li>
+                    <li><a class="dropdown-item" href="#">Coupes Individuelles</a></li>
+                    <li><a class="dropdown-item" href="#">Coulis</a></li>
+                    <li><a class="dropdown-item" href="#">Spécialités</a></li>
+                    <li><a class="dropdown-item" href="#">Produits Bio</a></li>
+                    <li><hr></li>
+                    <li><p class="titre-dropdown">Gamme Professionnels</p></li>
+                    <li><a class="dropdown-item" href="#">Bacs de Glace</a></li>
+                    <li><a class="dropdown-item" href="#">Coupes Individuelles</a></li>
+                    <li><a class="dropdown-item" href="#">Glace à l'Italienne</a></li>
+                    <li><a class="dropdown-item" href="#">Glace à l'Italienne</a></li>
+                    <li><a class="dropdown-item" href="#">Fruits Surgelés</a></li>
+                    <li><a class="dropdown-item" href="#">Coulis</a></li>
+                    <li><a class="dropdown-item" href="#">Produits Bio</a></li>
+                </ul>
             </div>
             <button>Contact</button>
             <button>A Propos</button>
         </nav>
+
     </header>
 
+
     <header class="hmobile row d-lg-none d-block d-sm-block">
-<!--        <img class="col-lg-1" src="Ressources/PHOTOS/LOGO/icone%20glace.png" alt="Logo Koh Frais" title="Logo Koh Frais">-->
+        <!--        <img class="col-lg-1" src="Ressources/PHOTOS/LOGO/icone%20glace.png" alt="Logo Koh Frais" title="Logo Koh Frais">-->
         <section class="mb-3">
             <nav class="navbar">
                 <div>
@@ -57,19 +65,33 @@
             <div class="collapse" id="navbarToggleExternalContent4">
                 <div class="p-4">
                     <button class="hmbutton btn btn-link btn-block m-1">Accueil</button>
-                    <button class="hmbutton btn btn-link btn-block m-1 dropdown-toggle">Nos Produits</button>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                            Nos produits
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                            <li><p class="titre-dropdown">Gamme Particuliers</p></li>
+                            <li><a class="dropdown-item" href="#">Bacs de Glace</a></li>
+                            <li><a class="dropdown-item" href="#">Coupes Individuelles</a></li>
+                            <li><a class="dropdown-item" href="#">Coulis</a></li>
+                            <li><a class="dropdown-item" href="#">Spécialités</a></li>
+                            <li><a class="dropdown-item" href="#">Produits Bio</a></li>
+                            <li><hr></li>
+                            <li><p class="titre-dropdown">Gamme Professionnels</p></li>
+                            <li><a class="dropdown-item" href="#">Bacs de Glace</a></li>
+                            <li><a class="dropdown-item" href="#">Coupes Individuelles</a></li>
+                            <li><a class="dropdown-item" href="#">Glace à l'Italienne</a></li>
+                            <li><a class="dropdown-item" href="#">Glace à l'Italienne</a></li>
+                            <li><a class="dropdown-item" href="#">Fruits Surgelés</a></li>
+                            <li><a class="dropdown-item" href="#">Coulis</a></li>
+                            <li><a class="dropdown-item" href="#">Produits Bio</a></li>
+                        </ul>
+                    </div>
                     <button class="hmbutton btn btn-link btn-block m-1">Contact</button>
                     <button class="hmbutton btn btn-link btn-block m-1">A propos</button>
                 </div>
             </div>
         </section>
-
-<!--        <nav class="col-lg-11">-->
-<!--            <button>Accueil</button>-->
-<!--            <button>Nos Produits</button>-->
-<!--            <button>Contact</button>-->
-<!--            <button>A Propos</button>-->
-<!--        </nav>-->
 
     </header>
 

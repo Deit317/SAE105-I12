@@ -71,6 +71,61 @@ header > nav {
     align-items: center;
 }
 
+.dropdown {
+    position: relative;
+}
+
+.dropdown > button {
+    padding: 0.5em 1.5em 0.4em 1.5em;
+    background: rgba(255, 255, 255, 0.73);
+    border-radius: 50px;
+    font-family: "Louis George Café", Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    background: #283655;
+    color: white;
+    margin: 0 1em;
+    border: solid 3px #283655;
+
+    transition-duration: 100ms;
+}
+
+.dropdown > button:hover {
+    border: solid #283655;
+    color: #283655;
+    background-color: white;
+    transform: scale(1.05);
+    transition-duration: 100ms;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 1em;
+    left: 5em;
+    width: 88%;
+    text-align: center;
+}
+
+.titre-dropdown {
+    font-size: 1.2em;
+}
+
+.dropdown-menu > li {
+    color: black;
+    text-decoration: none;
+    font-family: "Louis George Café", Arial, sans-serif;
+
+    transition-duration: 100ms;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: #d0e1f9;
+    color: #283655;
+    padding: 4px;
+    border-radius: 4px;
+    transition-duration: 100ms;
+}
+
 footer {
     background: #283655;
     font-size: 0.8em;
@@ -145,21 +200,21 @@ nav > button:hover {
     transition-duration: 100ms;
 }
 
-.dropbut {
-    font-size: 1.2em;
-    background: #283655;
-    color: white;
-    margin: 0 1em;
-    border: solid 3px #283655;
-    transition-duration: 100ms;
-}
+/*.dropbut {*/
+/*    font-size: 1.2em;*/
+/*    background: #283655;*/
+/*    color: white;*/
+/*    margin: 0 1em;*/
+/*    border: solid 3px #283655;*/
+/*    transition-duration: 100ms;*/
+/*}*/
 
-.dropbut:hover {
-    color: #283655;
-    background-color: white;
-    transform: scale(1.05);
-    transition-duration: 100ms;
-}
+/*.dropbut:hover {*/
+/*    color: #283655;*/
+/*    background-color: white;*/
+/*    transform: scale(1.05);*/
+/*    transition-duration: 100ms;*/
+/*}*/
 
 strong {
     font-size: 1.1em;
@@ -193,10 +248,27 @@ a:hover {
         border: solid black;
     }
 
+    .dropdown-toggle {
+        position: relative;
+        left: -0.8em;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+        height: 2.3em;
+    }
+
+    .dropdown {
+        margin: 0.25em 0;
+    }
+
     .hmbutton {
+        font-size: 1.2em;
         color: white;
         background-color: #283655;
-        border-radius: 20px;
+        border-radius: 40px;
         text-decoration: none;
         border: solid #283655;
     }
@@ -224,7 +296,7 @@ a:hover {
 }
 
 /*@media screen and (min-width: 576px) and (max-width: 768px) {*/
-@media screen and (min-width: 576px) and (max-width: 768px){
+@media screen and (aspect-ratio: 18.5/9) and (aspect-ratio: 20/9) {
 
     .hmobile > section > nav {
         box-shadow: none;
