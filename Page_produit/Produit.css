@@ -23,7 +23,12 @@ main img{
     border-radius: 20px;
 }
 
-main > section > article > img{
+.taille{
+    height: 469px;
+    margin-bottom: 40px;
+}
+
+main > section > div > article > img{
     height: 469px;
 }
 
@@ -44,9 +49,7 @@ section > div > h2 {
     position: relative;
 }
 
-main > section > div{
-    margin-bottom: 40px;
-}
+
 
 section > div > h2:before {
     content: "";
@@ -86,4 +89,13 @@ section > div > h2:after {
     section > div > h2 {
         font-size: 2em;
     }
+    .taille{
+        height: 420px;
+        margin-bottom: 40px;
+    }
+    
+    main > section > div > article > img{
+        height: 420px;
+    }
+
 }
