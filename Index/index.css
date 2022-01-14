@@ -40,6 +40,12 @@ section > article {
     flex-direction: row;
     align-items: center;
     margin-left: 3em;
+    transition-duration: 100ms;
+}
+
+section > article:hover {
+    transition-duration: 100ms;
+    transform: scale(1.10);
 }
 
 section > article > h3 {
@@ -54,6 +60,7 @@ section > article > img {
     height: 7em;
     margin: 0 3em;
     margin-bottom: 2em;
+    /*transition-duration: 100ms;*/
 }
 
 /*.meilleures > section {*/
@@ -69,6 +76,12 @@ section > article > img {
     height: 20em;
     margin: 0 1.5em;
     margin-bottom: 3em;
+    transition-duration: 100ms
+}
+
+.carte:hover > img {
+    transition-duration: 100ms;
+    transform: scale(1.10) translateY(-30%);
 }
 
 .carte > h2 {
@@ -91,15 +104,21 @@ section > article > img {
     /*max-height: 20em;*/
     max-width: 100%;
     transform: translateY(-30%);
+    transition-duration: 100ms;
 }
 
 .carousel {
-    margin-bottom: 3em;
+    margin-bottom: 2.7em;
     overflow: hidden;
 }
 
 .carousel > div > button {
     border-radius: 0;
+}
+
+.carousel-control-prev:hover {
+    background: none;
+    border: none;
 }
 
 .carousel-control-next:hover {
@@ -154,59 +173,8 @@ section > article > img {
         margin-left: 1em;
     }
 
-    .carousel-control-prev:hover {
-        background: none;
-        border: none;
-    }
-
-    .carousel-control-next:hover {
-        background: none;
-        border: none;
-    }
-}
-
-@media screen and (min-width: 576px) and (max-width: 768px) {
-
-    header > section > nav > div > button:hover {
-        background: none;
-    }
-
-    section > div > h1 {
-        font-size: 3em;
-    }
-
-    section > div > h1:before {
-        left: -1em;
-        width: 1.5em;
-    }
-
-    section > div > h1:after {
-        right: -1em;
-        width: 1.5em;
-    }
-
-    section > h2 {
-        font-size: 2em;
-        text-align: center;
-    }
-
-    section > article > img {
-        margin: 0 2em;
-        margin-bottom: 2em
-    }
-
-    .carte {
-        height: 13.5em;
-    }
-
-    .carte > h2 {
-        font-size: 2em;
-        -webkit-text-stroke: 2.8px;
-        -webkit-text-stroke-color:#444444;
-    }
-
-    section > article {
-        margin-left: 3em;
+    .carousel {
+        margin-bottom: 1.8em;
     }
 
     .carousel-control-prev:hover {
@@ -218,5 +186,60 @@ section > article > img {
         background: none;
         border: none;
     }
-
 }
+
+/*@media screen and (min-width: 576px) and (max-width: 768px) {*/
+
+/*    header > section > nav > div > button:hover {*/
+/*        background: none;*/
+/*    }*/
+
+/*    section > div > h1 {*/
+/*        font-size: 3em;*/
+/*    }*/
+
+/*    section > div > h1:before {*/
+/*        left: -1em;*/
+/*        width: 1.5em;*/
+/*    }*/
+
+/*    section > div > h1:after {*/
+/*        right: -1em;*/
+/*        width: 1.5em;*/
+/*    }*/
+
+/*    section > h2 {*/
+/*        font-size: 2em;*/
+/*        text-align: center;*/
+/*    }*/
+
+/*    section > article > img {*/
+/*        margin: 0 2em;*/
+/*        margin-bottom: 2em*/
+/*    }*/
+
+/*    .carte {*/
+/*        height: 13.5em;*/
+/*    }*/
+
+/*    .carte > h2 {*/
+/*        font-size: 2em;*/
+/*        -webkit-text-stroke: 2.8px;*/
+/*        -webkit-text-stroke-color:#444444;*/
+/*    }*/
+
+/*    section > article {*/
+/*        margin-left: 3em;*/
+/*    }*/
+
+/*    .carousel-control-prev:hover {*/
+/*        background: none;*/
+/*        border: none;*/
+/*    }*/
+
+/*    .carousel-control-next:hover {*/
+/*        background: none;*/
+/*        border: none;*/
+/*    }*/
+
+/*}*/
