@@ -57,8 +57,9 @@ section > section > article {
     margin-bottom: 4em;
 }
 
-section > section > article > button {
-    /*align-self: center;*/
+section > section > article:hover {
+    transition-duration: 100ms;
+    transform: scale(1.10);
 }
 
 section > section > article > figure > figcaption {
@@ -78,4 +79,35 @@ section > section > article > figure > img {
 
 * {
     /*border: 1px dotted red;*/
+}
+
+@media screen and (max-width: 576px) {
+
+    .hmobile {
+        margin-bottom: 1.7em;
+    }
+
+    div > h1 {
+        font-size: 3em;
+        margin-bottom: 0.7em;
+    }
+
+    section > div > h2 {
+        font-size: 2.5em;
+    }
+
+    section > div > h2:before {
+        left: -0.4em;
+        width: 0.8em;
+    }
+
+    section > div > h2:after {
+        right: -0.4em;
+        width: 0.8em;
+    }
+
+    section > section > article > button {
+        /*align-self: center;*/
+    }
+
 }
