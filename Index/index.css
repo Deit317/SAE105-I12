@@ -140,13 +140,11 @@ section > article > img {
     }
 
     section > div > h1:before {
-        left: -0.5em;
-        width: 1em;
+        display: none;
     }
 
     section > div > h1:after {
-        right: -0.5em;
-        width: 1em;
+        display: none;
     }
 
     section > h2 {
@@ -185,6 +183,25 @@ section > article > img {
     .carousel-control-next:hover {
         background: none;
         border: none;
+    }
+
+    .separateur {
+        position: relative;
+        margin-top: 0.5em;
+        margin-bottom: 2em;
+    }
+
+    .separateur:after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+
+        background-color: black;
+        width: 40%;
+        height: 4px;
+        border-radius: 20px;
     }
 }
 
