@@ -1,3 +1,32 @@
 /* CE FICHIER CSS EST EXCLUSIVEMENT POUR LA PAGE POINTS DE VENTES
 Il n'est pas nécéssaire de remettre le contenu présent dans le fichier base.css
  */
+
+p,
+h1 {
+  text-align: center;
+}
+
+section > p {
+  text-align: left;
+}
+
+section,
+div > p {
+  padding: 1em;
+}
+
+#textsm {
+  display: none;
+}
+
+/*------------- Media Query -------------*/
+
+@media screen and (max-width: 780px) {
+  #textlg {
+    display: none;
+  }
+  #textsm {
+    display: inherit;
+  }
+}
