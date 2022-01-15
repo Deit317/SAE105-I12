@@ -236,6 +236,10 @@ a:hover {
 
 @media screen and (max-width: 576px) {
 
+    header > section > nav > div > button:hover {
+        background: none;
+    }
+
     .hmobile > section > nav {
         box-shadow: none;
     }

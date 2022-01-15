@@ -131,9 +131,9 @@ section > article > img {
 }
 
 @media screen and (max-width: 576px) {
-    header > section > nav > div > button:hover {
-        background: none;
-    }
+    /*header > section > nav > div > button:hover {*/
+    /*    background: none;*/
+    /*}*/
 
     section > div > h1 {
         font-size: 3em;
