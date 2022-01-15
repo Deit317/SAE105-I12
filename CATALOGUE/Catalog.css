@@ -1,0 +1,178 @@
+/* CE FICHIER CSS EST EXCLUSIVEMENT POUR LA PAGE DES GAMMES
+Il n'est pas nécéssaire de remettre le contenu présent dans le fichier base.css
+ */
+
+header {
+    margin-bottom: 3em;
+}
+
+div > h1 {
+    text-align: center;
+    margin-bottom: 0.7em;
+}
+
+/*div > h1 {*/
+/*}*/
+
+div > h2 {
+    position: relative;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+div > h2:before {
+    content: "";
+    position: absolute;
+    left: -2em;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 4px;
+    width: 3em;
+    background-color: black;
+    border-radius: 4px;
+    display: block;
+}
+
+div > h2:after {
+    content: "";
+    position: absolute;
+    right: -2em;
+    top: 50%;
+    transform: translateX(50%) translateY(-50%);
+    height: 4px;
+    width: 3em;
+    background-color: black;
+    border-radius: 4px;
+    display: block;
+}
+
+section > section {
+    margin-bottom: -1em;
+}
+
+section > section > article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+section > section > article:hover {
+    transition-duration: 100ms;
+    transform: scale(1.10);
+}
+
+section > section > article > figure > figcaption {
+    text-align: center;
+    margin-top: -1.2em;
+    font-size: 1.3em;
+}
+
+section > section > article > figure > img {
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    height: 10em;
+    margin: 0 3em;
+    margin-bottom: 2em;
+}
+
+/*.carousel > div > article {*/
+/*    align-items: center;*/
+/*}*/
+
+/*.carousel-item > article {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    flex-wrap: nowrap;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.carousel-control-prev:hover {*/
+/*    background: none;*/
+/*    border: none;*/
+/*}*/
+
+/*.carousel-control-next:hover {*/
+/*    background: none;*/
+/*    border: none;*/
+/*}*/
+
+/*figure > img {*/
+/*    height: 14em;*/
+/*    border-radius: 20px;*/
+/*}*/
+
+/*figure > figcaption {*/
+/*    text-align: center;*/
+/*}*/
+
+footer {
+    margin-top: 1em;
+}
+
+/** {*/
+/*    !*border: 1px dotted red;*!*/
+/*}*/
+
+@media screen and (max-width: 576px) {
+
+    .hmobile {
+        margin-bottom: 1.7em;
+    }
+
+    div > h1 {
+        font-size: 3em;
+        margin-bottom: 0.7em;
+    }
+
+
+    div > h2 {
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+    div > h2:before {
+        display: none;
+    }
+
+    div > h2:after {
+        display: none;
+    }
+
+    /*section > section > article > button {*/
+    /*    !*align-self: center;*!*/
+    /*}*/
+
+    .separateur {
+        position: relative;
+        margin-bottom: 2em;
+    }
+
+    .separateur:after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+
+        background-color: black;
+        width: 40%;
+        height: 4px;
+        border-radius: 20px;
+    }
+
+    /*figure {*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*    flex-wrap: nowrap;*/
+    /*    justify-content: center;*/
+    /*    align-items: center;*/
+    /*}*/
+
+    /*figure > figcaption {*/
+    /*    margin-top: 0.5em;*/
+    /*    font-size: 1.3em;*/
+    /*}*/
+}
