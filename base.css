@@ -234,6 +234,11 @@ a:hover {
     transition-duration: 100ms;
 }
 
+nav > button > a:hover {
+    background-color: white;
+    color: #283655;
+}
+
 @media screen and (max-width: 576px) {
 
     header > section > nav > div > button:hover {
@@ -243,6 +248,11 @@ a:hover {
     .hmobile > section > nav {
         box-shadow: none;
     }
+
+    /*.hmobile > nav > button > a:hover {*/
+    /*    background-color: white;*/
+    /*    color: #283655;*/
+    /*}*/
 
     .hmobile > section > nav > div > button > img {
         height: 3em;
@@ -277,9 +287,14 @@ a:hover {
         border: solid #283655;
     }
 
-    .hmbutton:hover {
-        color: #283655;
-    }
+    /*.hmbutton:hover {*/
+    /*    color: #283655;*/
+    /*}*/
+
+    /*.hmbutton > a:hover {*/
+    /*    background-color: white;*/
+    /*    color: #283655;*/
+    /*}*/
 
     footer > section {
         display: flex;
