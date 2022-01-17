@@ -38,8 +38,9 @@ section > h2 {
 section > article {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
-    margin-left: 3em;
+    /*margin-left: 3em;*/
     transition-duration: 100ms;
 }
 
@@ -49,7 +50,7 @@ section > article:hover {
 }
 
 section > article > h3 {
-    margin: -1em;
+    /*margin: -1em;*/
     margin-bottom: 0.45em;
 }
 
@@ -58,7 +59,7 @@ section > article > img {
     overflow: hidden;
     position: relative;
     height: 7em;
-    margin: 0 3em;
+    margin-right: 0.5em;
     margin-bottom: 2em;
     /*transition-duration: 100ms;*/
 }
@@ -162,7 +163,7 @@ section > article > img {
     }
 
     section > article > img {
-        margin: 0 2em;
+        /*margin: 0 2em;*/
         margin-bottom: 2em
     }
 
@@ -177,7 +178,7 @@ section > article > img {
     }
 
     section > article {
-        margin-left: 1em;
+        /*margin-left: 1em;*/
     }
 
     .carousel {
