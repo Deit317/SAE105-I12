@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="../../CSS/base.css">
     <link rel="stylesheet" href="contact.css">
     <link rel="icon" href="../../Ressources/PHOTOS/LOGO/icone%20glace.png">
-    <title>Title</title>
+    <title>Contact</title>
 </head>
 <body>
+<div class="container-fluid">
 <header class="row d-none d-sm-none d-lg-flex">
     <img class="col-lg-1" src="../../Ressources/PHOTOS/LOGO/logo%20Koh%20Frais.png" alt="Logo Koh Frais" title="Logo Koh Frais">
     <nav class="col-lg-11">
@@ -38,40 +39,10 @@
             </ul>
         </div>
         <button onclick="window.location='contact.html'">Contact</button>
-        <button onclick="window.location='../../POINTS_VENTES/Pointsventes.html'">A Propos</button>
+        <button onclick="window.location='../POINTS_VENTES/Pointsventes.html'">A Propos</button>
     </nav>
 
 </header>
-
-<main>
-    <div class="row">
-        <h1 class="col-12">Nous Contacter</h1>
-    </div>
-
-    <form class="row justify-content-center">
-        <label class="col-6 my-2">
-            Nom
-            <input type="text">
-        </label>
-
-        <label class="col-6 my-2">
-            Prénom
-            <input type="text">
-        </label>
-
-        <label class="col-12 my-2">
-            e-mail
-            <input type="email">
-        </label>
-
-        <label class="col-12 my-2">
-            Message
-            <textarea></textarea>
-        </label>
-
-        <button class="col-3">Envoyer</button>
-    </form>
-</main>
 
 <header class="hmobile row d-lg-none d-block d-sm-block">
     <section class="mb-3">
@@ -115,6 +86,36 @@
     </section>
 
 </header>
+
+<main>
+    <div class="row">
+        <h1 class="col-12">Nous Contacter</h1>
+    </div>
+
+    <form class="row justify-content-center">
+        <label class="col-6 my-2">
+            Nom
+            <input type="text">
+        </label>
+
+        <label class="col-6 my-2">
+            Prénom
+            <input type="text">
+        </label>
+
+        <label class="col-12 my-2">
+            e-mail
+            <input type="email">
+        </label>
+
+        <label class="col-12 my-2">
+            Message
+            <textarea></textarea>
+        </label>
+
+        <button class="col-lg-3 col-12">Envoyer</button>
+    </form>
+</main>
 
 <footer class="d-none d-sm-none d-lg-block">
     <div class="row">
@@ -201,5 +202,6 @@
         </ul>
     </section>
 </footer>
+</div>
 </body>
 </html>

@@ -14,80 +14,77 @@
   <title>Produits Bio</title>
 </head>
 <body>
-  <div class="container-fluid">
-    <header class="row d-none d-sm-none d-lg-flex">
-      <img class="col-lg-1" src="../../Ressources/PHOTOS/LOGO/logo%20Koh%20Frais.png" alt="Logo Koh Frais" title="Logo Koh Frais">
-      <nav class="col-lg-11">
-        <button><a href="../../index.html">Accueil</a></button>
+<header class="row d-none d-sm-none d-lg-flex">
+  <img class="col-lg-1" src="../../Ressources/PHOTOS/LOGO/logo%20Koh%20Frais.png" alt="Logo Koh Frais" title="Logo Koh Frais">
+  <nav class="col-lg-11">
+    <button onclick="window.location='../../index.html'">Accueil</button>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Nos produits
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><p class="titre-dropdown">Gamme Particuliers</p></li>
+        <li><a class="dropdown-item" href="../CATALOGUE/cat_part_bac.html">Bacs de Glace</a></li>
+        <li><a class="dropdown-item" href="../CATALOGUE/cat_part_cup_indiv.html">Coupes Individuelles</a></li>
+        <li><a class="dropdown-item" href="../CATALOGUE/cat_part_spe.html">Spécialités</a></li>
+        <li><a class="dropdown-item" href="../CATALOGUE/cat_part_bio.html">Produits Bio</a></li>
+        <li><hr></li>
+        <li><p class="titre-dropdown">Gamme Professionnels</p></li>
+        <li><a class="dropdown-item" href="../CATALOGUE/cat_part_bac.html">Bacs de Glace</a></li>
+        <li><a class="dropdown-item" href="../CATALOGUE/cat_part_cup_indiv.html">Coupes Individuelles</a></li>
+        <li><a class="dropdown-item" href="../CATALOGUE/cat_pro_ita.html">Glace à l'Italienne</a></li>
+        <li><a class="dropdown-item" href="../CATALOGUE/cat_pro_fruits.html">Fruits Congelés</a></li>
+        <li><a class="dropdown-item" href="../CATALOGUE/cat_part_bio.html">Produits Bio</a></li>
+      </ul>
+    </div>
+    <button onclick="window.location='../CONTACT/contact.html'">Contact</button>
+    <button onclick="window.location='../../POINTS_VENTES/Pointsventes.html'">A Propos</button>
+  </nav>
+
+</header>
+
+<header class="hmobile row d-lg-none d-block d-sm-block">
+  <section class="mb-3">
+    <nav class="navbar">
+      <div>
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarToggleExternalContent4"
+                aria-controls="navbarToggleExternalContent4" aria-expanded="false"
+                aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+          <img src="../../Ressources/PHOTOS/LOGO/icone%20glace.png" alt="Logo Koh Frais Glace" title="Logo Koh Frais Glace">
+        </button>
+      </div>
+    </nav>
+    <div class="collapse" id="navbarToggleExternalContent4">
+      <div class="p-4">
+        <button class="hmbutton btn btn-link btn-block m-1" onclick="window.location='../../index.html'">Accueil</button>
         <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
             Nos produits
           </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
             <li><p class="titre-dropdown">Gamme Particuliers</p></li>
-            <li><a class="dropdown-item" href="cat_part_bac.html">Bacs de Glace</a></li>
-            <li><a class="dropdown-item" href="cat_part_cup_indiv.html">Coupes Individuelles</a></li>
-            <li><a class="dropdown-item" href="cat_part_spe.html">Spécialités</a></li>
-            <li><a class="dropdown-item" href="cat_part_bio.html">Produits Bio</a></li>
+            <li><a class="dropdown-item" href="../CATALOGUE/cat_part_bac.html">Bacs de Glace</a></li>
+            <li><a class="dropdown-item" href="../CATALOGUE/cat_part_cup_indiv.html">Coupes Individuelles</a></li>
+            <li><a class="dropdown-item" href="../CATALOGUE/cat_part_spe.html">Spécialités</a></li>
+            <li><a class="dropdown-item" href="../CATALOGUE/cat_part_bio.html">Produits Bio</a></li>
             <li><hr></li>
             <li><p class="titre-dropdown">Gamme Professionnels</p></li>
-            <li><a class="dropdown-item" href="cat_pro_bac.html">Bacs de Glace</a></li>
-            <li><a class="dropdown-item" href="cat_pro_cup.html">Coupes Individuelles</a></li>
-            <li><a class="dropdown-item" href="cat_pro_ita.html">Glace à l'Italienne</a></li>
-            <li><a class="dropdown-item" href="cat_pro_fruits.html">Fruits Congelés</a></li>
-            <li><a class="dropdown-item" href="cat_pro_bio.html">Produits Bio</a></li>
+            <li><a class="dropdown-item" href="../CATALOGUE/cat_part_bac.html">Bacs de Glace</a></li>
+            <li><a class="dropdown-item" href="../CATALOGUE/cat_part_cup_indiv.html">Coupes Individuelles</a></li>
+            <li><a class="dropdown-item" href="../CATALOGUE/cat_pro_ita.html">Glace à l'Italienne</a></li>
+            <li><a class="dropdown-item" href="../CATALOGUE/cat_pro_fruits.html">Fruits Congelés</a></li>
+            <li><a class="dropdown-item" href="../CATALOGUE/cat_part_bio.html">Produits Bio</a></li>
           </ul>
         </div>
-        <button onclick="window.location='../CONTACT/contact.html'">Contact</button>
-        <button><a href="../POINTS_VENTES/Pointsventes.html">A Propos</a></button>
-      </nav>
+        <button class="hmbutton btn btn-link btn-block m-1" onclick="window.location='../CONTACT/contact.html'">Contact</button>
+        <button class="hmbutton btn btn-link btn-block m-1" onclick="window.location='../../POINTS_VENTES/Pointsventes.html'">A Propos</button>
+      </div>
+    </div>
+  </section>
 
-    </header>
-
-
-    <header class="hmobile row d-lg-none d-block d-sm-block">
-      <!--        <img class="col-lg-1" src="Ressources/PHOTOS/LOGO/icone%20glace.png" alt="Logo Koh Frais" title="Logo Koh Frais">-->
-      <section class="mb-3">
-        <nav class="navbar">
-          <div>
-            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-                    data-mdb-target="#navbarToggleExternalContent4"
-                    aria-controls="navbarToggleExternalContent4" aria-expanded="false"
-                    aria-label="Toggle navigation">
-              <i class="fas fa-bars"></i>
-              <img src="../../Ressources/PHOTOS/LOGO/icone%20glace.png" alt="Logo Koh Frais Glace" title="Logo Koh Frais Glace">
-            </button>
-          </div>
-        </nav>
-        <div class="collapse" id="navbarToggleExternalContent4">
-          <div class="p-4">
-            <button class="hmbutton btn btn-link btn-block m-1"><a href="../../index.html">Accueil</a></button>
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                Nos produits
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                <li><p class="titre-dropdown">Gamme Particuliers</p></li>
-                <li><a class="dropdown-item" href="cat_part_bac.html">Bacs de Glace</a></li>
-                <li><a class="dropdown-item" href="cat_part_cup_indiv.html">Coupes Individuelles</a></li>
-                <li><a class="dropdown-item" href="cat_part_spe.html">Spécialités</a></li>
-                <li><a class="dropdown-item" href="cat_part_bio.html">Produits Bio</a></li>
-                <li><hr></li>
-                <li><p class="titre-dropdown">Gamme Professionnels</p></li>
-                <li><a class="dropdown-item" href="cat_pro_bac.html">Bacs de Glace</a></li>
-                <li><a class="dropdown-item" href="cat_pro_cup.html">Coupes Individuelles</a></li>
-                <li><a class="dropdown-item" href="cat_pro_ita.html">Glace à l'Italienne</a></li>
-                <li><a class="dropdown-item" href="cat_pro_fruits.html">Fruits Congelés</a></li>
-                <li><a class="dropdown-item" href="cat_pro_bio.html">Produits Bio</a></li>
-              </ul>
-            </div>
-            <button class="hmbutton btn btn-link btn-block m-1"><a href="../CONTACT/contact.html">Contact</a></button>
-            <button class="hmbutton btn btn-link btn-block m-1"><a href="../POINTS_VENTES/Pointsventes.html">A Propos</a></button>
-          </div>
-        </div>
-      </section>
-
-    </header>
+</header>
 
   <main>
     <div class="row justify-content-center">
